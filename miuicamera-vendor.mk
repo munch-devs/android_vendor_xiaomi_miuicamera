@@ -7,7 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/miuicamera/proprietary/product/etc/device_features/munch.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/munch.xml \
-    vendor/xiaomi/miuicamera/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+    vendor/xiaomi/miuicamera/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64-qti.rc
 
 PRODUCT_PACKAGES += \
     libcamera_algoup_jni.xiaomi \
