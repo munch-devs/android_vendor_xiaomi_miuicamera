@@ -1,6 +1,5 @@
 allow platform_app {
     hal_xiaomi_camera_hwservice
-    hal_misys_hwservice
 }:hwservice_manager find;
 
 allow platform_app {
