@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- MIUI ADD: Adapt_MIUIAdaptFrame-->
 <features>
     <!--whether the device is pad-->
     <bool name="is_pad">false</bool>
@@ -648,6 +649,8 @@
     <!-- open dim time form cloud featrue -->
     <bool name="support_cloud_dim">true</bool>
 
+    <!--  system firware related settings from bsp-adapt  -->
+    <!--  these items are used by SecurityCenter  -->
     <string-array name="dynamic_partition_list">
         <item>/system</item>
         <item>/system_ext</item>
@@ -666,3 +669,4 @@
     </string-array>
     <string name="partition_name_path">/dev/block/by-name/</string>
 </features>
+<!-- END Adapt_MIUIAdaptFrame-->

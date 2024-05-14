@@ -1,9 +1,9 @@
 # From munch MIUI V14.0.9.0.TLMCNXM package
 -product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera,Camera2,GoogleCameraGo|1eb82ca99df9a4442133cdc6573491b8ca092740
-system/lib64/libcamera_algoup_jni.xiaomi.so
-system/lib64/libcamera_mianode_jni.xiaomi.so
-system/lib64/libmicampostproc_client.so
-system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+system_ext/lib64/libcamera_algoup_jni.xiaomi.so:system/lib64/libcamera_algoup_jni.xiaomi.so
+system_ext/lib64/libcamera_mianode_jni.xiaomi.so:system/lib64/libcamera_mianode_jni.xiaomi.so
+system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so
+system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
