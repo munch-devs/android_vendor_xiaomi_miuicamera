@@ -7,7 +7,6 @@ PRODUCT_PACKAGES += \
 
 # Props
 PRODUCT_SYSTEM_PROPERTIES += \
-    vendor.camera.aux.packagelist=com.android.camera \
     persist.vendor.camera.privapp.list=com.android.camera \
     ro.com.google.lens.oem_camera_package=com.android.camera \
     ro.miui.notch=1 \
