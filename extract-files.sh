@@ -56,12 +56,23 @@ fi
 function blob_fixup() {
     case "${1}" in
         system/lib64/libcamera_algoup_jni.xiaomi.so|system/lib64/libcamera_mianode_jni.xiaomi.so)
+            [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed libgui_shim_miuicamera.so "${2}"
             ;;
-        system/lib64/libmicampostproc_client.so)
+        system/lib64/libmicampostproc_client.so)            
+            [ "$2" = "" ] && return 0
             "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             ;;
+        *)
+            return 1
+            ;;
     esac
+
+    return 0
+}
+
+function blob_fixup_dry() {
+    blob_fixup "$1" ""
 }
 
 # Initialize the helper
