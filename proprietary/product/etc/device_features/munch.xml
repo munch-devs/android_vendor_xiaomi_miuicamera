@@ -668,5 +668,8 @@
         <item>expdb</item>
     </string-array>
     <string name="partition_name_path">/dev/block/by-name/</string>
+    <!--  MIUI ADD: PKMS_ParentalControl  -->
+    <bool name="support_parental_control">true</bool>
+    <!-- END PKMS_ParentalControl -->
 </features>
 <!-- END Adapt_MIUIAdaptFrame-->
