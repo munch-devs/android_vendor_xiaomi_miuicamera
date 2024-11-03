@@ -14,12 +14,8 @@ PRODUCT_PACKAGES += \
     libcamera_mianode_jni.xiaomi \
     libmicampostproc_client \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.camera.provider@2.4-impl \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@2.0 \
-    vendor.qti.hardware.camera.device@3.5 \
     android.hardware.camera.provider@2.4-external \
+    android.hardware.camera.provider@2.4-legacy \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     camera.device@3.3-impl \
@@ -28,5 +24,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.5-external-impl \
     camera.device@3.5-impl \
     camera.device@3.6-external-impl \
+    android.hardware.camera.provider@2.4-impl \
+    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@2.0 \
+    vendor.qti.hardware.camera.device@3.5 \
     MiuiCamera \
     android.hardware.camera.provider@2.4-service_64
