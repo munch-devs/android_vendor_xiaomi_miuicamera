@@ -6,8 +6,9 @@ system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client
 system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
 vendor/lib/camera.device@3.3-impl.so
@@ -16,12 +17,12 @@ vendor/lib/camera.device@3.4-impl.so
 vendor/lib/camera.device@3.5-external-impl.so
 vendor/lib/camera.device@3.5-impl.so
 vendor/lib/camera.device@3.6-external-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so:vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so;FIX_SONAME
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
@@ -30,7 +31,6 @@ vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/camera.device@3.5-external-impl.so
 vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera.device@3.6-external-impl.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so;FIX_SONAME
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
