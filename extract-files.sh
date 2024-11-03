@@ -65,6 +65,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             ;;
+        vendor/bin/hw/android.hardware.camera.provider@2.4-service_64 | vendor/lib/android.hardware.camera.provider@2.4-legacy.so | vendor/lib/camera.device@1.0-impl.so | vendor/lib64/android.hardware.camera.provider@2.4-legacy.so | vendor/lib64/camera.device@1.0-impl.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "vendor.qti.hardware.camera.device@1.0.so" "vendor.qti.hardware.camera.device@1.0_vendor.so" "${2}"
+            ;;
         *)
             return 1
             ;;
